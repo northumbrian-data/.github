@@ -15,7 +15,7 @@ Each repository has one of two topic tags to help you and fellow contributors un
 &nbsp;  
 👍🎉 **Thank you from the gliff.ai team for your interest and hopefully taking the time to contribute!** 🎉👍
 
-# Table of Contents
+## Table of Contents
 
 Looking for something specific? 🔍
 
@@ -29,7 +29,7 @@ Looking for something specific? 🔍
 - [Labels](#labels)
 - [Contact](#contact)
 
-# Code of Conduct
+## Code of Conduct
 
 [{{back to navigation}}](#table-of-contents)
 
@@ -37,7 +37,7 @@ All projects and contributors are governed by the **gliff.ai Code of Conduct** �
 
 Please report unacceptable behavior ⚠️ to the gliff.ai team at [contact@gliff.ai](mailto:contact@gliff.ai?subject=Report%20GitHub%20Behavior) or on GitHub.
 
-# Create an Issue
+## Create an Issue
 
 [{{back to navigation}}](#table-of-contents)
 
@@ -50,7 +50,7 @@ Our team uses 4 templates for creating issues across gliff.ai repositories, and 
 
 Please remember to first determine which repository the issue should be raised in, then [search the gliff.ai repositories](https://github.com/search?q=user%3Agliff-ai+is%3Aissue+is%3Aopen) to ensure the issue you want to open is not already open! 
 
-# Create a Pull Request
+## Create a Pull Request
 
 [{{back to navigation}}](#table-of-contents)
 
@@ -60,7 +60,7 @@ Please remember to first determine which repository the pull request should be c
 
 After you submit your pull request, please assign 3 or less reviewers following our [assigning reviewers best practices](#assigning-reviewers-best-pratices) and assign any [labels](#labels) you think are applicable. Please also verify that all status checks are passing. If for some reason they are failing and you believe it’s unrelated to your change or unsure why, please leave a comment on the pull request explaining this and someone on the gliff.ai team will further investigate.
 
-# Linting, Formatting and Testing
+## Linting, Formatting and Testing
 
 [{{back to navigation}}](#table-of-contents)
 
@@ -75,7 +75,7 @@ We use pre-commit for running lints, tests and other checks locally on commit an
 
 If you create a pull request, your contributed code will automatically be linted, formatted and tested by the GitHub Action we have set up. New code should always use the same linters and formatters the gliff.ai reposorities currently use. We would also really appreciate new code to come with new tests, where appropriate, to be run against all existing tests!
 
-# Commit Best Practices and Naming Conventions
+## Commit Best Practices and Naming Conventions
 
 [{{back to navigation}}](#table-of-contents)
 
@@ -95,7 +95,7 @@ For example, “feat: add new icon svg file” or “fix: lint errors”.
 
 One-line commit messages are perfect for small changes, but larger changes should include a paragraph describing what has changed and what is its impact alongside.
 
-# Assigning Reviewers Best Practices
+## Assigning Reviewers Best Practices
 
 [{{back to navigation}}](#table-of-contents)
 
@@ -110,7 +110,7 @@ The gliff.ai team active on our various projects are known as the **“techteam�
 
 As best practice we recommended assigning reviewers using which team(s) are best involved with the content and solution of your pull request (e.g. UI bug fix (frontend & ui-ux), or new unit test (backend)).
 
-# Labels
+## Labels
 
 [{{back to navigation}}](#table-of-contents)
 
@@ -154,7 +154,7 @@ These labels are mostly consistent across gliff.ai repositories^ to make it easi
 
 **^ NOTE:** the [ROADMAP repository](https://github.com/gliff-ai/roadmap/blob/main/README.md) repository has its own unique labelling system.
 
-# Contact
+## Contact
 
 [{{back to navigation}}](#table-of-contents)
 
