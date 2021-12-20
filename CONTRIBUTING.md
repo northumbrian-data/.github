@@ -107,7 +107,7 @@ The gliff.ai team active on our various projects are known as the **â€œtechteamâ
 - **backend**: Requests 2 random members from this 4 person sub-team.
 - **frontend**: Requests 2 random members from this 6 person sub-team.
 - **ui-ux**: Requests 1 specific member from this 2 person sub-team.
-- **documentation**: Requests 2 random members from this 4 person sub-team
+- **documentation**: Requests 2 random members from this 4 person sub-team.
 
 As best practice we recommended assigning reviewers using which team(s) are best involved with the content and solution of your pull request (e.g. UI bug fix (frontend & ui-ux), or new unit test (backend)).
 
