@@ -2,7 +2,7 @@
 
 🔒 **gliff.ai takes the security of our products very seriously including all our code repositories and dependencies!** 🔒
 
-&nbsp; 
+&nbsp;  
 The purpose of this guide is to ensure all contributors and projects within the gliff.ai space have a unified Security Policy to create a fast and informed security vulnerability response whenever one might appear.
 
 ## Table of Contents
