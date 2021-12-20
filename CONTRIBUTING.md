@@ -33,7 +33,7 @@ Looking for something specific? 🔍
 
 [{{back to navigation}}](#table-of-contents)
 
-All projects and contributors are governed by the **gliff.ai Code of Conduct** 📝. By contributing, you are expected to uphold this code to ensure a positive and welcome community space for all.
+All projects and contributors are governed by the [gliff.ai Code of Conduct](https://github.com/gliff-ai/.github/blob/main/CODE_OF_CONDUCT.md) 📝. By contributing, you are expected to uphold this code to ensure a positive and welcome community space for all.
 
 Please report unacceptable behavior ⚠️ to the gliff.ai team at [contact@gliff.ai](mailto:contact@gliff.ai?subject=Report%20GitHub%20Behavior) or on GitHub.
 
@@ -46,7 +46,7 @@ Our team uses 4 templates for creating issues across gliff.ai repositories, and 
 - **Bug Report** – report any bugs whether technical or visual (the “bug” label will be automatically applied). 
 - **Feature/Enhancement Request** – request any new features or enhancements of current features (the “enhancement” label will be automatically applied).
 - **Test Request** – request a new test not currently available (the “test” label will be automatically applied).
-- **Security Vulnerability** – report a suspected vulnerability which risks the security of our code (the “vulnerability” label will be automatically applied, and two gliff.ai team members will be automatically assigned). Read the gliff.ai Security Policy to learn more!
+- **Security Vulnerability** – report a suspected vulnerability which risks the security of our code (the “vulnerability” label will be automatically applied, and two gliff.ai team members will be automatically assigned). Read the [gliff.ai Security Policy](https://github.com/gliff-ai/.github/blob/main/SECURITY.md) to learn more!
 
 Please remember to first determine which repository the issue should be raised in, then [search the gliff.ai repositories](https://github.com/search?q=user%3Agliff-ai+is%3Aissue+is%3Aopen) to ensure the issue you want to open is not already open! 
 
