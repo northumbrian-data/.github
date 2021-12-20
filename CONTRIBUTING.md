@@ -159,4 +159,4 @@ These labels are mostly consistent across gliff.ai repositories^ to make it easi
 [{{back to navigation}}](#table-of-contents)
 
 Need some help? 🤔 Have a question? 🧠
-Reach out to the gliff.ai team at [contact@gliff.ai](mailto:contact@gliff.ai) or on GitHub.
+Reach out to the gliff.ai team at [contact@gliff.ai](mailto:contact@gliff.ai?subject=[GitHub]) or on GitHub.
