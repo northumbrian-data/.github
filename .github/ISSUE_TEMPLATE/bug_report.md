@@ -39,4 +39,4 @@ Add screenshots to help illustrate the bug.
 
 ## Additional Context  (delete if not applicable)
 
-Please include any other context or discussion about the problem here.
+Add any other context, screenshots, further reading links or discussion notes about the new feature or enhancement idea here.
