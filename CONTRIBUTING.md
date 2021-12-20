@@ -153,7 +153,7 @@ Our repositories have 7 label categories which are subdivided into their own lab
 
 These labels are mostly consistent across gliff.ai repositories^ to make it easier for everyone while working across multiple. If you forget this don't worry, when you open your issue or pull request each label has a description!
 
-**^ NOTE:** the [ROADMAP repository](https://github.com/gliff-ai/roadmap] has its own unique labelling system.
+**^ NOTE:** the [ROADMAP repository](https://github.com/gliff-ai/roadmap/blob/main/README.md) repository has its own unique labelling system.
 
 # Contact
 
