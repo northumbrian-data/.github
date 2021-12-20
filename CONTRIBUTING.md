@@ -1,6 +1,6 @@
 # gliff.ai Contribution Guide
 
-👋 **Hello there!** Thanks for your interest in contributing! 👋
+👋 **Hello there! Thanks for your interest in contributing!** 👋
 
 &nbsp;  
 The purpose of this guide is to ensure all contributors have a unified approach to contributing to all projects within the gliff.ai space.
@@ -13,7 +13,7 @@ Each repository has one of two topic tags to help you and fellow contributors un
 - **no-contributors** – This repository does not currently accept contributions unfortunately!
 
 &nbsp;  
-👍🎉 **Thank you** from the gliff.ai team for your interest and hopefully taking the time to contribute! 🎉👍
+👍🎉 **Thank you from the gliff.ai team for your interest and hopefully taking the time to contribute!** 🎉👍
 
 # Table of Contents
 
