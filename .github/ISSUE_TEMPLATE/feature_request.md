@@ -16,7 +16,7 @@ A clear and concise description of what the problem is (e.g. I'm always frustrat
 
 ## Solution
 
-Include a clear and concise description of what you want to happen (e.g. This will benefit users because '...' To stop this problem from happening we should add '...').
+Include a clear and concise description of what you want to happen (e.g. This will benefit users because '...' To stop this problem from happening we should add '...'). Include images if you have any that can help illustrate the idea.
 
 ## Considered Alternatives
 
