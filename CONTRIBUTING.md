@@ -23,7 +23,7 @@ Looking for something specific? 🔍
 - [Code of Conduct](#code-of-conduct)
 - [Create an Issue](#create-an-issue)
 - [Create a Pull Request](#create-a-pull-request)
-- [Linting, Formatting and Testing](#linting--formatting-and-testing)
+- [Linting, Formatting and Testing](#linting-formatting-and-testing)
 - [Commit Best Practices and Naming Conventions](#commit-best-practices-and-naming-conventions)
 - [Assigning Reviewers Best Practices](#assigning-reviewers-best-practices)
 - [Labels](#labels)
