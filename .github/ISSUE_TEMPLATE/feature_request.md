@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 <!--
-⛔ Note: Please search to see if an issue already exists for the bug you have encountered before opening a new one to prevent duplication. ⛔
+⛔ Note: Please search to see if an issue is already open or previously closed for the feature/enhancement request you have before opening a new one to prevent duplication. ⛔
 -->
 
 ## Is your feature request related to a problem? Please describe
