@@ -52,7 +52,7 @@ Please remember to first determine which repository the issue should be raised i
 
 [{{back to navigation}}](#table-of-contents)
 
-The **Pull Request** template should be filled out as much as possible. Your pull request should include a summary of the changes you have made and your motivation behind them. Please list any dependency changes, added tests, documentation changes, migrations and complete our checklist to ensure you have completed all the necessary steps.
+The **Pull Request** template should be filled out as much as possible. Your pull request should include a summary of the changes you have made and your motivation behind them. Please list any dependency changes, added tests, documentation changes, database changes (if applicable) and complete our checklist to ensure you have completed all the necessary steps.
 
 Please remember to first determine which repository the pull request should be created in, then [search the gliff.ai repositories](https://github.com/search?q=user%3Agliff-ai+is%3Apr) to make sure the pull request you want to create is **not already open or closed**! 
 
