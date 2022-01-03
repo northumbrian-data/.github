@@ -54,7 +54,7 @@ Please remember to first determine which repository the issue should be raised i
 
 The **Pull Request** template should be filled out as much as possible. Your pull request should include a summary of the changes you have made and your motivation behind them. Please list any dependency changes, added tests, documentation changes, migrations and complete our checklist to ensure you have completed all the necessary steps.
 
-Please remember to first determine which repository the pull request should be created in, then [search the gliff.ai repositories](https://github.com/search?q=user%3Agliff-ai+is%3Apr+is%3Aopen) to ensure the pull request you want to open is not already open! 
+Please remember to first determine which repository the pull request should be created in, then [search the gliff.ai repositories](https://github.com/search?q=user%3Agliff-ai+is%3Apr) to make sure the pull request you want to create is **not already open or closed**! 
 
 After you submit your pull request, please assign 3 or less reviewers following our [assigning reviewers best practices](#assigning-reviewers-best-pratices) and assign any [labels](#labels) you think are applicable. Please also verify that all status checks are passing. If for some reason they are failing and you believe it’s unrelated to your change or unsure why, please leave a comment on the pull request explaining this and someone on the gliff.ai team will further investigate.
 
