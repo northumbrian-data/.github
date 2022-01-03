@@ -42,7 +42,8 @@ Please report unacceptable behavior ⚠️ to the gliff.ai team at [contact@glif
 Our team uses 4 templates for creating issues across gliff.ai repositories, and we would appreciate you also using these and filling them out with as much detail as you are able to provide. The templates include:
 
 - **Bug Report** – report any bugs whether technical or visual (the “bug” label will be automatically applied). 
-- **Feature/Enhancement Request** – request any new features or enhancements of current features (the “enhancement” label will be automatically applied).
+- **Feature Request** – request any new features whether technical or visual (the “feature” label will be automatically applied).
+- **Enhancement Request** – request any enhancements whether technical or visual (the “enhancement” label will be automatically applied).
 - **Test Request** – request a new test not currently available (the “test” label will be automatically applied).
 - **Security Vulnerability** – report a suspected vulnerability which risks the security of our code (the “vulnerability” label will be automatically applied, and two gliff.ai team members will be automatically assigned). Read the [gliff.ai Security Policy](https://github.com/gliff-ai/.github/blob/main/SECURITY.md) to learn more!
 
