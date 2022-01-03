@@ -6,7 +6,7 @@ This repository contains the various documents and templates for [gliff.ai](http
 
 The [gliff.ai](https://gliff.ai) GITHUB COMMUNITY HEALTH FILES aim to foster a positive and welcoming environment for all and ensure consistent, meaningful contribution standards and practises across [gliff.ai](https://gliff.ai) repositories and projects through clear and helpful sets of documentation. Our team standards and practises are documented in the [gliff.ai Contribution Guide](https://github.com/gliff-ai/.github/blob/main/CONTRIBUTING.md) 👋, the [gliff.ai Code of Conduct](https://github.com/gliff-ai/.github/blob/main/CODE_OF_CONDUCT.md) ⚠️ and the [gliff.ai Security Policy](https://github.com/gliff-ai/.github/blob/main/SECURITY.md) 🔒. With four issue templates and one pull request template to ensure consistent contributions from any of our contributors!
 
-❌ **This repository does not currently accept contributions unfortunately!** ❌
+❌ **This repository does not accept most contributions unfortunately! However, an issue can still be raised if you recognise a problem you wish to bring to the gliff.ai teams attention.** ❌
 
 ## Table of Contents
 
