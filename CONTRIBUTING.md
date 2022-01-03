@@ -129,8 +129,9 @@ Our repositories have 7 label categories which are subdivided into their own lab
 - [vulnerability](https://github.com/search?q=user%3Agliff-ai+label%3Avulnerability+is%3Aopen) – Security vulnerability report only.
 - [question](https://github.com/search?q=user%3Agliff-ai+label%3Aquestion+is%3Aopen) – Further information is requested and/or required.
 
-**Improvements**  (blue)
-- [enhancement](https://github.com/search?q=user%3Agliff-ai+label%3Aenhancement+is%3Aopen) – New feature or enhancement request.
+**Improvement**  (blue)
+- [feature](https://github.com/search?q=user%3Agliff-ai+label%3Afeature+is%3Aopen) – New feature request.
+- [enhancement](https://github.com/search?q=user%3Agliff-ai+label%3Aenhancement+is%3Aopen) – New feature request.
 - [test](https://github.com/search?q=user%3Agliff-ai+label%3Atest+is%3Aopen) – Anything related to testing or tests.
 - [ui/ux](https://github.com/search?q=user%3Agliff-ai+label%3Aui%2Fux+is%3Aopen) – User interface / user experience of the platform.
 - [deployment](https://github.com/search?q=user%3Agliff-ai+label%3Adeployment+is%3Aopen) – Anything relating to deployment.
