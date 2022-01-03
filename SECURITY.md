@@ -43,4 +43,4 @@ The gliff.ai team will then aim to release a fix/patch as soon as possible depen
 [{{back to navigation}}](#table-of-contents)
 
 Have a question? 🧠 Want to report something? 🚨 \
-Reach out to the gliff.ai team at [contact@gliff.ai](mailto:contact@gliff.ai?subject=[GitHub%20-%20Security%20Vulnerability]) or on GitHub.
+Reach out to the gliff.ai team at [community@gliff.ai](mailto:community@gliff.ai?subject=[GitHub%20-%20Security%20Vulnerability]) or on GitHub.
