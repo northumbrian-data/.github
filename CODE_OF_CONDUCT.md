@@ -8,10 +8,10 @@ The purpose of this guide is to ensure all contributors and projects within the 
 
 Looking for something specific? 🔍
 
-- [Introduction](#gliffai-security-policy)
-- [Our Standards](#supported-versions)
-- [Our Responsibilities](#report-a-vulnerability)
-- [Enforcement](#response)
+- [Introduction](#gliffai-code-of-conduct)
+- [Our Standards](#our-standards)
+- [Our Responsibilities](#our-responsibilities)
+- [Enforcement](#enforcement)
 - [Contact](#contact)
 
 ## Our Standards
