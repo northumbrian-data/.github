@@ -62,14 +62,7 @@ After you submit your pull request, please assign 3 or less reviewers following 
 
 [{{back to navigation}}](#table-of-contents)
 
-Our teams uses flake8 and black for linting and auto-formatting our Python code alongside pytest for our Python tests, and then eslint and prettier.io for linting and auto-formatting our TypeScript code alongside jest with react-testing-library for our TypeScript testing. Further specifics and configuration files can be found in each of our repositories.
-
-We use pre-commit for running lints, tests and other checks locally on commit and push. To use pre-commit on your own machine, you should run the following in your terminal:
-
-    sudo pip install pre-commit
-    pre-commit install --hook-type pre-commit
-    pre-commit install --hook-type commit-msg
-    pre-commit install --hook-type pre-push
+Our teams uses [flake8](https://github.com/PyCQA/flake8) and [black](https://github.com/psf/black) for linting and auto-formatting our Python code alongside [pytest](https://docs.pytest.org/en/6.2.x/) for our Python tests, and then [eslint](https://eslint.org) and [prettier.io](https://prettier.io) for linting and auto-formatting our TypeScript code alongside [jest with react-testing-library](https://jestjs.io/docs/tutorial-react) for our TypeScript testing. Any further or other specifics and configuration files can be found in each of our repositories.
 
 If you create a pull request, your contributed code will automatically be linted, formatted and tested by the GitHub Action we have set up. New code should always use the same linters and formatters the gliff.ai reposorities currently use. We would also really appreciate new code to come with new tests, where appropriate, to be run against all existing tests!
 
