@@ -10,7 +10,7 @@ Looking for something specific? 🔍
 
 - [Introduction](#gliffai-code-of-conduct)
 - [Our Standards](#our-standards)
-- [Our Responsibilities](#our-responsibilities)
+- [Our Responsibilities](#our-responsibilites)
 - [Enforcement](#enforcement)
 - [Contact](#contact)
 
