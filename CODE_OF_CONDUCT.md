@@ -57,4 +57,4 @@ Any gliff.ai team members who do not follow or enforce the Code of Conduct in go
 [{{back to navigation}}](#table-of-contents)
 
 Have a question? 🧠 Want to report something? 🚨 \
-Reach out to the gliff.ai team at [contact@gliff.ai](mailto:contact@gliff.ai?subject=[GitHub%20-%20Conduct]) or on GitHub.
+Reach out to the gliff.ai team at [community@gliff.ai](mailto:community@gliff.ai?subject=[GitHub%20-%20Conduct]) or on GitHub.
