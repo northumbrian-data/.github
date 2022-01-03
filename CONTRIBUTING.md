@@ -8,8 +8,8 @@ The purpose of this guide is to ensure all contributors have a unified approach 
 
 Each repository has one of two topic tags to help you and fellow contributors understand which repositories [gliff.ai](https://gliff.ai) is open to contributions outside of our team. They are:
 
-- **contributors-welcome** – We welcome contributions on this repository!
-- **no-contributors** – This repository does not currently accept contributions unfortunately!
+- **contributions-welcome** – We welcome all types of contributions on this repository!
+- **no-contributions** – This repository does not accept most contributions unfortunately! However, an issue can still be raised if you recognise a problem you wish to bring to the gliff.ai teams attention.
 
 👍🎉 **Thank you from the gliff.ai team for your interest and hopefully taking the time to contribute!** 🎉👍
 
