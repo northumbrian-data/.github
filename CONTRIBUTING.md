@@ -83,11 +83,11 @@ Commit messages should indicate the type and include a short summary of the comm
 
 - **feat**: The new feature you're adding to a particular application.
 - **fix**: A bug fix.
-- **style**: Feature and updates related to style changes and formatting.
+- **build**: Development changes related to the build system (involving scripts, configurations or tools) and package dependencies.
 - **refactor**: Refactoring a specific section of the codebase.
 - **test**: Everything related to testing.
 - **docs**: Everything related to documentation.
-- **chore**: Regular code maintenance.
+- **chore**: Regular code maintenance and/or style changes/formatting.
 
 For example, “feat: add new icon svg file” or “fix: lint errors”.
 
