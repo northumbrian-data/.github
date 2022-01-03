@@ -48,7 +48,7 @@ Ultimately, the gliff.ai team have the right and responsibility to remove, edit,
 
 [{{back to navigation}}](#table-of-contents)
 
-If you come across any instances of abusive, harassing, or otherwise unacceptable behavior you should report it by contacting the gliff.ai team at at [contact@gliff.ai](mailto:contact@gliff.ai?subject=[GitHub%20-%20Conduct]) or on GitHub. Any complaints will be reviewed and investigated as part of our pledge to protect our positive and welcoming environment. As such, we will always maintain confidentiality with regards to the reporter of an incident. Any response given will be considered necessary and appropriate to the report raised to the team.
+If you come across any instances of abusive, harassing, or otherwise unacceptable behavior you should report it by contacting the gliff.ai team at at [community@gliff.ai](mailto:community@gliff.ai?subject=[GitHub%20-%20Conduct]) or on GitHub. Any complaints will be reviewed and investigated as part of our pledge to protect our positive and welcoming environment. As such, we will always maintain confidentiality with regards to the reporter of an incident. Any response given will be considered necessary and appropriate to the report raised to the team.
 
 Any gliff.ai team members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions. This will be judged and a response will be determined by other members of the gliff.ai team leadership.
 
