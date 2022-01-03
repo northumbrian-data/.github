@@ -62,7 +62,11 @@ After you submit your pull request, please assign 3 or less reviewers following 
 
 [{{back to navigation}}](#table-of-contents)
 
-Our teams uses [flake8](https://github.com/PyCQA/flake8) and [black](https://github.com/psf/black) for linting and auto-formatting our Python code alongside [pytest](https://docs.pytest.org/en/6.2.x/) for our Python tests, and then [eslint](https://eslint.org) and [prettier.io](https://prettier.io) for linting and auto-formatting our TypeScript code alongside [jest with react-testing-library](https://jestjs.io/docs/tutorial-react) for our TypeScript testing. Any further or other specifics and configuration files can be found in each of our repositories.
+For linting and formating our team uses [flake8](https://github.com/PyCQA/flake8) and [black](https://github.com/psf/black) for linting and auto-formatting our Python code alongside [pytest](https://docs.pytest.org/en/6.2.x/) for our Python code tests, or [eslint](https://eslint.org) and [prettier.io](https://prettier.io) for linting and auto-formatting our TypeScript code alongside [jest with react-testing-library](https://jestjs.io/docs/tutorial-react) for our TypeScript code testing.
+
+For system and visual testing our team uses [BrowserStack](https://www.browserstack.com) – specifically [Automate with Selenium](https://www.browserstack.com/automate), and [Percy](https://www.browserstack.com/percy) Snapshots together to test at scale the platform works as antipicated.
+
+_Any further or alternative specifics and configuration files can be found in each of our repositories._
 
 If you create a pull request, your contributed code will automatically be linted, formatted and tested by the GitHub Action we have set up. New code should always use the same linters and formatters the gliff.ai reposorities currently use. We would also really appreciate new code to come with new tests, where appropriate, to be run against all existing tests!
 
