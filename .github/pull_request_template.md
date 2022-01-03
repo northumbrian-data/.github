@@ -21,9 +21,9 @@ Please describe the new tests that have been added for this change along with an
 
 Please describe the new documentation that has been added for this change (is there new user documentation? is there new developer documentation? is the developer documentation purely generated from docstrings in the code?).
 
-## Migrations (delete if not applicable)
+## Database Changes (delete if not applicable)
 
-Have any database migrations been committed as part of this pull request?
+Have any database changes been committed as part of this pull request?
 
 ## Checklist:
 
@@ -40,5 +40,5 @@ Put an `x` in the boxes that apply to this pull request (you can also fill these
 - [ ] I have added tests that prove my fix is effective or that my feature works.
 - [ ] My changes generate no new warnings.
 - [ ] I have made corresponding changes to the documentation.
-- [ ] New migrations have been committed.
+- [ ] New database changes have been committed.
 - [ ] If appropriate, I have bumped any version numbers.
