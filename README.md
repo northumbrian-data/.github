@@ -18,6 +18,8 @@ Looking for something specific? 🔍
 
 ## Contribute
 
+[{{back to navigation}}](#table-of-contents)
+
 This repository **does not accept contributions** unfortunately as content has been developed with specific gliff.ai team practises and preferences in mind.
 
 However, we do have several repositories within the gliff.ai github space that we welcome all contributors and any contributions on. These will be marked with the topic tag **contributors-welcome** meaning we welcome contributions on this repository! Search for them [here](https://github.com/search?q=topic%3Acontributors-welcome+org%3Agliff-ai&type=Repositories)!
@@ -25,6 +27,8 @@ However, we do have several repositories within the gliff.ai github space that w
 Check out the [gliff.ai Contribution Guide](https://github.com/gliff-ai/.github/blob/main/CONTRIBUTING.md) 👋 to learn more!
 
 ## Contact
+
+[{{back to navigation}}](#table-of-contents)
 
 Need some help? 🤔 Have a question? 🧠 \
 Reach out to the gliff.ai team at [contact@gliff.ai](mailto:contact@gliff.ai?subject=[GitHub]) or on GitHub.
