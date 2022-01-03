@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 <!--
-⛔ Note: Please search to see if an issue already exists for the bug you have encountered before opening a new one to prevent duplication. ⛔
+⛔ Note: Please search to see if an issue is already open or previously closed for the test you are proposing before opening a new one to prevent duplication. ⛔
 -->
 
 ## Test Description
