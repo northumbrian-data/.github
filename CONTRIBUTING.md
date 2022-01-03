@@ -2,7 +2,6 @@
 
 👋 **Hello there! Thanks for your interest in contributing!** 👋
 
-&nbsp;  
 The purpose of this guide is to ensure all contributors have a unified approach to contributing to all projects within the gliff.ai space.
 
 [gliff.ai](https://gliff.ai) is a small company aiming to help get healthcare and life science AI products regulated with a focus on privacy and security; fairness, accountability and transparency; all by keeping experts in the loop to ensure high quality outputs for real people and solutions across the world. Because the gliff.ai team is small, we look for the help of volunteer developers like you to contribute to our open-source code ensuring gliff.ai can have the best and biggest positive impact possible.
