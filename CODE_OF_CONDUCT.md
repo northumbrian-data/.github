@@ -2,7 +2,6 @@
 
 ⚠️ **All projects and contributors are governed by this document!** ⚠️
 
-&nbsp;  
 The purpose of this guide is to ensure all contributors and projects within the gliff.ai space have a unified Code of Conduct to create a positive and welcoming environment for all.
 
 ## Table of Contents
