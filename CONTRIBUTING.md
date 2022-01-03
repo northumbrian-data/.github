@@ -2,16 +2,15 @@
 
 👋 **Hello there! Thanks for your interest in contributing!** 👋
 
-The purpose of this guide is to ensure all contributors have a unified approach to contributing to all projects within the gliff.ai space.
+The purpose of this guide is to ensure all contributors have a unified approach to contributing to all projects within the [gliff.ai](https://gliff.ai) space.
 
-[gliff.ai](https://gliff.ai) is a small company aiming to help get healthcare and life science AI products regulated with a focus on privacy and security; fairness, accountability and transparency; all by keeping experts in the loop to ensure high quality outputs for real people and solutions across the world. Because the gliff.ai team is small, we look for the help of volunteer developers like you to contribute to our open-source code ensuring gliff.ai can have the best and biggest positive impact possible.
+[gliff.ai](https://gliff.ai) is a small company aiming to help get healthcare and life science AI products regulated with a focus on privacy and security; fairness, accountability and transparency; all by keeping experts in the loop to ensure high quality outputs for real people and solutions across the world. Because the [gliff.ai team](https://gliff.ai/about/) is small, we look for the help of volunteer developers like you to contribute to our open-source code ensuring [gliff.ai](https://gliff.ai) can have the best and biggest positive impact possible.
 
-Each repository has one of two topic tags to help you and fellow contributors understand which repositories gliff.ai is open to contributions outside of our team. They are:
+Each repository has one of two topic tags to help you and fellow contributors understand which repositories [gliff.ai](https://gliff.ai) is open to contributions outside of our team. They are:
 
 - **contributors-welcome** – We welcome contributions on this repository!
 - **no-contributors** – This repository does not currently accept contributions unfortunately!
 
-&nbsp;  
 👍🎉 **Thank you from the gliff.ai team for your interest and hopefully taking the time to contribute!** 🎉👍
 
 ## Table of Contents
