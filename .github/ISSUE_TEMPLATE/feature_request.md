@@ -1,23 +1,27 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Feature Request
+about: Request a new feature (technical and/or visual)!
 title: ""
-labels: "enhancement"
+labels: "feature"
 assignees: ""
 ---
 
-## Is your feature request related to a problem? Please describe
+<!--
+⛔ Note: Please search to see if an issue is already open or previously closed for the feature/enhancement request you have before opening a new one to prevent duplication. ⛔
+-->
 
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## Problem
 
-## Describe the solution you'd like
+Provide a clear and concise description of what the problem is (e.g. Our users are now requiring the ability to ‘...’ There is currently not a way for me as a user to ‘...’).
 
-A clear and concise description of what you want to happen.
+## Solution
 
-## Describe alternatives you've considered
+Include a clear and concise description of what you want to happen (e.g. This will benefit users because ‘...’). Include any code or design - if applicable - that could help illustrate the idea.
 
-A clear and concise description of any alternative solutions or features you've considered.
+## Considered Alternatives
 
-## Additional context
+A clear and concise description of any alternative solutions, ideas, code or design you've considered for this idea.
 
-Add any other context or screenshots about the feature request here.
+## Additional Context (delete if not applicable)
+
+Add any other context, screenshots, further reading links or discussion notes about the new feature or enhancement idea here.
