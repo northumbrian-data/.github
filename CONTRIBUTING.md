@@ -45,9 +45,12 @@ Our team uses 4 templates for creating issues across gliff.ai repositories, and 
 - **Feature Request** – request any new features whether technical or visual (the “feature” label will be automatically applied).
 - **Enhancement Request** – request any enhancements whether technical or visual (the “enhancement” label will be automatically applied).
 - **Test Request** – request a new test not currently available (the “test” label will be automatically applied).
-- **Security Vulnerability** – report a suspected vulnerability which risks the security of our code (the “vulnerability” label will be automatically applied, and two gliff.ai team members will be automatically assigned). Read the [gliff.ai Security Policy](https://github.com/gliff-ai/.github/blob/main/SECURITY.md) to learn more!
 
-Please remember to first determine which repository the issue should be raised in, then [search the gliff.ai repositories](https://github.com/search?q=user%3Agliff-ai+is%3Aissue+is%3Aopen) to ensure the issue you want to open is not already open! 
+**NOTE:** Please remember to first determine which repository the issue should be raised in, then [search the gliff.ai repositories](https://github.com/search?q=user%3Agliff-ai+is%3Aissue) to ensure the issue you want to open is not already open or previously closed!
+
+The process of reporting a found **Security Vulnerability** is different to the above. You should only report this problem to the team via an email report by contacting us at [security@gliff.ai](mailto:security@gliff.ai?subject=[GitHub%20-%20Security%20Vulnerability]) and we would apprieciate you also including as much detail as you are able to priovide. Please refer to the [gliff.ai Security Policy](https://github.com/gliff-ai/.github/blob/main/SECURITY.md) 🔒 for further details, including a content guide to create an in-depth report.
+
+**NOTE:** If you try to report a found **Security Vulnerability** via the normal GitHub issue process, you will be redirect to the [gliff.ai Security Policy](https://github.com/gliff-ai/.github/blob/main/SECURITY.md) 🔒 instead of an issue template. So feel free to access the [gliff.ai Security Policy](https://github.com/gliff-ai/.github/blob/main/SECURITY.md) 🔒 either which way suits your workflow!
 
 ## Create a Pull Request
 
