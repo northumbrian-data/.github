@@ -130,7 +130,7 @@ Our repositories have 7 label categories which are subdivided into their own lab
 
 **Problem**  (red)
 - [bug](https://github.com/search?q=user%3Agliff-ai+label%3Abug+is%3Aopen) – Something isn’t working or looking right.
-- [vulnerability](https://github.com/search?q=user%3Agliff-ai+label%3Avulnerability+is%3Aopen) – Security vulnerability report only.
+- [vulnerability](https://github.com/search?q=user%3Agliff-ai+label%3Avulnerability+is%3Aopen) – Security vulnerability related issue.
 - [question](https://github.com/search?q=user%3Agliff-ai+label%3Aquestion+is%3Aopen) – Further information is requested and/or required.
 
 **Improvement**  (blue)
