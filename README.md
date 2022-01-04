@@ -13,6 +13,7 @@ The [gliff.ai](https://gliff.ai) GITHUB COMMUNITY HEALTH FILES aim to foster a p
 Looking for something specific? 🔍
 
  - [Repository Introduction](#gliffai-github-community-health-files)
+ - [Table of Contents](#table-of-contents)
  - [Contribute](#contribute)
  - [Contact](#contact)
 
