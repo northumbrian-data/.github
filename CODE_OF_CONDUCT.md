@@ -2,7 +2,11 @@
 
 ⚠️ **All projects and contributors are governed by this document!** ⚠️
 
-The purpose of this guide is to ensure all contributors and projects within the [gliff.ai](https://gliff.ai) space have a unified Code of Conduct to create a positive and welcoming environment for all.
+The purpose of this guide is to outline [gliff.ai](https://gliff.ai)'s expectations of individuals involved in [gliff.ai](https://gliff.ai) activities. While incidents of unaccpetable behaviour are relatively infrequent, this document serves as a guide to form a clear set of standards to maintain a safe and welcoming space that avoids/prevents behaviours that prevent this, while outlining reporting and disciplinary processes.
+
+[gliff.ai](https://gliff.ai) employees a team of passionate and innovative backgrounds, with the outlook that our compnay, our products and our customers benefit from diveristy of backgrounds and perspectives. We prioritise creating a space which is a safe and welcoming environment for all, regardless of their personal identity or background, as anything other than thise can jeopardise the ability to work and with [gliff.ai](https://gliff.ai).
+
+The [gliff.ai Code of Conduct](https://github.com/gliff-ai/.github/blob/main/CODE_OF_CONDUCT.md) ⚠️ **DOES NOT** replace existing legal mechanisms.
 
 ## Table of Contents
 
@@ -48,7 +52,7 @@ Ultimately, the gliff.ai team have the right and responsibility to remove, edit,
 
 [{{back to navigation}}](#table-of-contents)
 
-If you come across any instances of abusive, harassing, or otherwise unacceptable behavior you should report it by contacting the gliff.ai team at at [community@gliff.ai](mailto:community@gliff.ai?subject=[GitHub%20-%20Conduct]) or on GitHub. Any complaints will be reviewed and investigated as part of our pledge to protect our positive and welcoming environment. As such, we will always maintain confidentiality with regards to the reporter of an incident. Any response given will be considered necessary and appropriate to the report raised to the team.
+If you come across any instances of abusive, harassing, or otherwise unacceptable behavior you should report it by contacting the gliff.ai team at at [community@gliff.ai](mailto:community@gliff.ai?subject=[GitHub%20-%20Conduct%20Report]) or on GitHub. Any complaints will be reviewed and investigated as part of our pledge to protect our positive and welcoming environment. As such, we will always maintain confidentiality with regards to the reporter of an incident. Any response given will be considered necessary and appropriate to the report raised to the team.
 
 Any gliff.ai team members who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions. This will be judged and a response will be determined by other members of the gliff.ai team leadership.
 
