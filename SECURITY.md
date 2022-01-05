@@ -9,6 +9,7 @@ The purpose of this guide is to ensure all contributors and projects within the 
 Looking for something specific? 🔍
 
 - [Introduction](#gliffai-security-policy)
+- [Table of Contents](#table-of-contents)
 - [Supported Versions](#supported-versions)
 - [Report a Vulnerability](#report-a-vulnerability)
 - [Response](#response)
