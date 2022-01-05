@@ -18,6 +18,7 @@ Each repository has one of two topic tags to help you and fellow contributors un
 Looking for something specific? 🔍
 
 - [Introduction](#gliffai-contribution-guide)
+- [Table of Contents](#table-of-contents)
 - [Code of Conduct](#code-of-conduct)
 - [Create an Issue](#create-an-issue)
 - [Create a Pull Request](#create-a-pull-request)
