@@ -138,9 +138,7 @@ Our repositories have 7 label categories which are subdivided into their own lab
 - [feature](https://github.com/search?q=user%3Agliff-ai+label%3Afeature+is%3Aopen) – New feature request.
 - [enhancement](https://github.com/search?q=user%3Agliff-ai+label%3Aenhancement+is%3Aopen) – New feature request.
 - [test](https://github.com/search?q=user%3Agliff-ai+label%3Atest+is%3Aopen) – Anything related to testing or tests.
-- [ui/ux](https://github.com/search?q=user%3Agliff-ai+label%3Aui%2Fux+is%3Aopen) – User interface / user experience of the platform.
 - [deployment](https://github.com/search?q=user%3Agliff-ai+label%3Adeployment+is%3Aopen) – Anything relating to deployment.
-- [documentation](https://github.com/search?q=user%3Agliff-ai+label%3Adocumentation+is%3Aopen) – Improvements or additions to documentation.
 
 **Release**  (yellow)
 - [major](https://github.com/search?q=user%3Agliff-ai+label%3Amajor+is%3Aopen) – Major release.
