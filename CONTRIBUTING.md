@@ -121,26 +121,20 @@ Our repositories have 7 label categories which are subdivided into their own lab
 **Welcome**  (white)
 - [good-first-issue](https://github.com/search?q=user%3Agliff-ai+label%3Agood-first-issue+is%3Aopen) – Perfect for new contributors.
 
-**Status**  (orange)
-- [design-complete](https://github.com/search?q=user%3Agliff-ai+label%3Adesign-complete+is%3Aopen) – Design ready for implementation.
-- [priority](https://github.com/search?q=user%3Agliff-ai+label%3Apriority+is%3Aopen) – This issue should be a priority for completion.
-
 **Update**  (light grey)
 - [dependencies](https://github.com/search?q=user%3Agliff-ai+label%3Adependencies+is%3Aopen) – Pull requests that update a dependency file.
-- [javascript](https://github.com/search?q=user%3Agliff-ai+label%3Ajavascript+is%3Aopen) – Pull requests that update Javascript code.
 
 **Problem**  (red)
 - [bug](https://github.com/search?q=user%3Agliff-ai+label%3Abug+is%3Aopen) – Something isn’t working or looking right.
-- [vulnerability](https://github.com/search?q=user%3Agliff-ai+label%3Avulnerability+is%3Aopen) – Security vulnerability related issue.
 - [question](https://github.com/search?q=user%3Agliff-ai+label%3Aquestion+is%3Aopen) – Further information is requested and/or required.
 
-**Improvement**  (blue)
+**Improvement**  (gliff.ai purple – #AE79FF)
 - [feature](https://github.com/search?q=user%3Agliff-ai+label%3Afeature+is%3Aopen) – New feature request.
 - [enhancement](https://github.com/search?q=user%3Agliff-ai+label%3Aenhancement+is%3Aopen) – New feature request.
 - [test](https://github.com/search?q=user%3Agliff-ai+label%3Atest+is%3Aopen) – Anything related to testing or tests.
 - [deployment](https://github.com/search?q=user%3Agliff-ai+label%3Adeployment+is%3Aopen) – Anything relating to deployment.
 
-**Release**  (yellow)
+**Release**  (gliff.ai cyan – #00DBFF)
 - [major](https://github.com/search?q=user%3Agliff-ai+label%3Amajor+is%3Aopen) – Major release.
 - [minor](https://github.com/search?q=user%3Agliff-ai+label%3Aminor+is%3Aopen) – Minor release.
 - [patch](https://github.com/search?q=user%3Agliff-ai+label%3Apatch+is%3Aopen) – Patch release.
