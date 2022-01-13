@@ -1,11 +1,9 @@
 name: automatically add to project board
 on:
-  issues:
-    types:
-      - opened
-  pull_request:
-    types:
-      - opened
+  workflow_call:
+    secrets:
+      ROBOT_PAT:
+        required: true
 
 env:
   todo: Todo 🏗
