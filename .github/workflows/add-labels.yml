@@ -13,4 +13,4 @@ jobs:
         uses: gliff-ai/multi-labeler@v1
         with:
           github-token: ${{ secrets.ROBOT_PAT }}
-          remote-config-path: gliff-ai/.github/.github/workflows/add-labels.config.yml
+          remote-config-path: gliff-ai/.github/.github/labeler.yml
