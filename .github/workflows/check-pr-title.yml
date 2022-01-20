@@ -1,0 +1,15 @@
+name: check PR title and label appropriately
+on:
+  workflow_call:
+    secrets:
+      ROBOT_PAT:
+        required: true
+
+jobs:
+  check_PR_title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check PR title
+        uses: amannn/action-semantic-pull-request@v3.4.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.ROBOT_PAT }}
