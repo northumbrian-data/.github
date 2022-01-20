@@ -1,0 +1,16 @@
+name: check PR title and label appropriately
+on:
+  workflow_call:
+    secrets:
+      ROBOT_PAT:
+        required: true
+
+jobs:
+  add_PR_labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: add labels to PR based on title
+        uses: gliff-ai/multi-labeler@v1
+        with:
+          github-token: ${{ secrets.ROBOT_PAT }}
+          remote-config-path: gliff-ai/.github/.github/workflows/add-labels.config.yml
