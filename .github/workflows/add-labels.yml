@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: add labels to PR based on title
         if: github.event_name == 'pull_request'
-        uses: gliff-ai/multi-labeler@v1
+        uses: gliff-ai/multi-labeler@main
         with:
           github-token: ${{ secrets.ROBOT_PAT }}
           remote-config-path: gliff-ai/.github/.github/labeler.yml
