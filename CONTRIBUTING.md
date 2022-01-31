@@ -123,6 +123,8 @@ Our repositories have 7 label categories which are subdivided into their own lab
 
 **Update**  (light grey)
 - [dependencies](https://github.com/search?q=user%3Agliff-ai+label%3Adependencies+is%3Aopen) – Pull requests that update a dependency file.
+- [javascript](https://github.com/search?q=user%3Agliff-ai+label%3Ajavascript+is%3Aopen) – Pull requests that update a Javascript code.
+- [python](https://github.com/search?q=user%3Agliff-ai+label%3Apython+is%3Aopen) – Pull requests that update a Python code.
 
 **Problem**  (red)
 - [bug](https://github.com/search?q=user%3Agliff-ai+label%3Abug+is%3Aopen) – Something isn’t working or looking right.
