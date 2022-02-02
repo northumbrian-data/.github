@@ -18,7 +18,7 @@ jobs:
     if: github.event_name == 'issues' && github.event.action == 'opened'
     steps:
       - name: mark issue as ${{ env.todo }}
-        uses: leonsteinhaeuser/project-beta-automations@v1.0.3
+        uses: leonsteinhaeuser/project-beta-automations@v1.1.1
         with:
           gh_token: ${{ secrets.ROBOT_PAT }}
           organization: gliff-ai
@@ -29,8 +29,13 @@ jobs:
             {
             \"name\": \"Status\",
             \"type\": \"single_select\",
-            \"value\": \"${{ env.todo }}\",
+            \"value\": \"${{ env.todo }}\"
             },
+            {
+            \"name\": \"Sprint\",
+            \"type\": \"iteration\",
+            \"value\": \"1\"
+            }
             ]'
   pr_opened:
     name: pr_opened_or_reopened_or_reviewrequested
