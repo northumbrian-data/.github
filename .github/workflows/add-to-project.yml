@@ -30,11 +30,6 @@ jobs:
             \"name\": \"Status\",
             \"type\": \"single_select\",
             \"value\": \"${{ env.todo }}\"
-            },
-            {
-            \"name\": \"Sprint\",
-            \"type\": \"iteration\",
-            \"value\": \"1\"
             }
             ]'
   pr_opened:
@@ -49,4 +44,16 @@ jobs:
           organization: gliff-ai
           project_id: 13
           resource_node_id: ${{ github.event.pull_request.node_id }}
-          status_value: ${{ env.for_review }}
+          operation_mode: custom_field
+          custom_field_values: '[
+            {
+            \"name\": \"Status\",
+            \"type\": \"single_select\",
+            \"value\": \"${{ env.for_review }}\"
+            },
+            {
+            \"name\": \"Sprint\",
+            \"type\": \"iteration\",
+            \"value\": \"Sprint 2\"
+            }
+            ]'
