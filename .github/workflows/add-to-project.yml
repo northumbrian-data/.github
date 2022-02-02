@@ -24,7 +24,14 @@ jobs:
           organization: gliff-ai
           project_id: 13
           resource_node_id: ${{ github.event.issue.node_id }}
-          status_value: ${{ env.todo }}
+          operation_mode: custom_field
+          custom_field_values: '[
+            {
+            \"name\": \"Status\",
+            \"type\": \"single_select\",
+            \"value\": \"${{ env.todo }}\",
+            },
+            ]'
   pr_opened:
     name: pr_opened_or_reopened_or_reviewrequested
     runs-on: ubuntu-latest
