@@ -15,7 +15,7 @@ on:
 
 jobs:
   npm_update:
-    if: ${{inputs.package_manager}} == 'npm'
+    if: inputs.package_manager == 'npm'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -85,7 +85,7 @@ jobs:
           github_token: ${{ secrets.ROBOT_PAT }}
           branches: ${{ env.BRANCH_NAME }}
   pipenv_update:
-    if: ${{inputs.package_manager}} == 'pipenv'
+    if: inputs.package_manager == 'pipenv'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -94,6 +94,7 @@ jobs:
         with:
           token: ${{ secrets.ROBOT_PAT }}
           ref: ${{ github.head_ref }}
+          submodules: recursive
       - name: create env variable for branch name
         run: |
           echo "BRANCH_NAME=$(date +'%Y-%m-%d')-dependencies" >> $GITHUB_ENV
@@ -106,9 +107,6 @@ jobs:
       - name: fetch just in case?
         run: |
           git fetch --all
-      - name: init submodules
-        run: |
-          git submodule update --init --recursive
       - name: setup python
         uses: palewire/install-python-pipenv-pipfile@v2
         with:
