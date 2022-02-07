@@ -6,6 +6,7 @@ on:
         required: true
 
 env:
+  current_sprint: Kara 🐴
   todo: Todo 🏗
   done: Done 🚀
   in_progress: In Progress 🚧
@@ -54,6 +55,6 @@ jobs:
             {
             \"name\": \"Sprint\",
             \"type\": \"iteration\",
-            \"value\": \"Sprint 2\"
+            \"value\": \"${{current_sprint}}\"
             }
             ]'
