@@ -3,7 +3,7 @@
   description: "[Welcome] Perfect for new contributors."
 - name: "bug"
   color: "FB3640"
-  description: "[Problem] Something isn’t working or looking right."
+  description: "[Problem] Something isn't working or looking right."
 - name: "question"
   color: "FB3640"
   description: "[Problem] Further help and/or information is required."
