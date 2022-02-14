@@ -40,4 +40,4 @@ jobs:
           project_id: 13
           resource_node_id: ${{ github.event.pull_request.node_id }}
           operation_mode: custom_field
-          custom_field_values: '[{\"name\": \"Status\",\"type\": \"single_select\",\"value\": \"${{ env.for_review }}\"}{\"name\": \"Sprint\",\"type\": \"iteration\",\"value\": \"${{current_sprint}}\"}]'
+          custom_field_values: '[{\"name\": \"Status\",\"type\": \"single_select\",\"value\": \"${{ env.for_review }}\"}{\"name\": \"Sprint\",\"type\": \"iteration\",\"value\": \"${{ env.current_sprint }}\"}]'
