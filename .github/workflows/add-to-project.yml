@@ -19,7 +19,7 @@ jobs:
     if: github.event_name == 'issues' && github.event.action == 'opened'
     steps:
       - name: mark issue as ${{ env.todo }}
-        uses: leonsteinhaeuser/project-beta-automations@v1.1.1
+        uses: leonsteinhaeuser/project-beta-automations@v1.2.0
         with:
           gh_token: ${{ secrets.ROBOT_PAT }}
           organization: gliff-ai
@@ -33,7 +33,7 @@ jobs:
     if: github.event_name == 'pull_request' && github.event.action == 'opened'
     steps:
       - name: mark PR as ${{ env.for_review }}
-        uses: leonsteinhaeuser/project-beta-automations@v1.0.3
+        uses: leonsteinhaeuser/project-beta-automations@v1.2.0
         with:
           gh_token: ${{ secrets.ROBOT_PAT }}
           organization: gliff-ai
