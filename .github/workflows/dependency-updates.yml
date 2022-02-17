@@ -120,10 +120,12 @@ jobs:
       - name: commit updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          skip_fetch: true
           commit_options: "-am --allow-empty"
           commit_message: "build(deps): update minor pipenv dependencies"
           commit_user_name: gliff-ai-robot
           commit_user_email: chas+noteG@gliff.ai
+          branch: ${{ env.BRANCH_NAME }}
       - name: lint and format
         run: |
           pipenv run lint
@@ -132,10 +134,12 @@ jobs:
         if: steps.auto-commit-action.outputs.changes_detected == 'true'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          skip_fetch: true
           commit_options: "-am --allow-empty"
           commit_message: "chore: lint and format"
           commit_user_name: gliff-ai-robot
           commit_user_email: chas+noteG@gliff.ai
+          branch: ${{ env.BRANCH_NAME }}
       - name: open pull request
         id: pull
         uses: gliff-ai/sync-branches@main
