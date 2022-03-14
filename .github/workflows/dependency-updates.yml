@@ -114,9 +114,6 @@ jobs:
       - name: update pipenv dependecies
         run: |
           pipenv update --dev
-          pipenv lock -r --dev > requirements.txt
-          sed -i -e 's/file:\/\/\/home\/runner\/work\/store\/store/\./g' Pipfile.lock
-          sed -i -e 's/file:\/\/\/home\/runner\/work\/store\/store/\./g' requirements.txt
       - name: commit updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
