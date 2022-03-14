@@ -6,7 +6,7 @@ on:
         required: true
 
 env:
-  current_sprint: Loki 🍏
+  current_sprint: Magni 💪
   todo: Todo 🏗
   done: Done 🚀
   in_progress: In Progress 🚧
