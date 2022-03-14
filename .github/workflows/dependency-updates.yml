@@ -94,7 +94,6 @@ jobs:
         with:
           token: ${{ secrets.ROBOT_PAT }}
           ref: ${{ github.head_ref }}
-          submodules: recursive
       - name: create env variable for branch name
         run: |
           echo "BRANCH_NAME=$(date +'%Y-%m-%d')-dependencies" >> $GITHUB_ENV
