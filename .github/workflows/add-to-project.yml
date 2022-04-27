@@ -6,7 +6,7 @@ on:
         required: true
 
 env:
-  current_sprint: Magni 💪
+  current_sprint: Nidhogg 🪱
   todo: Todo 🏗
   done: Done 🚀
   in_progress: In Progress 🚧
@@ -19,25 +19,20 @@ jobs:
     if: github.event_name == 'issues' && github.event.action == 'opened'
     steps:
       - name: mark issue as ${{ env.todo }}
-        uses: leonsteinhaeuser/project-beta-automations@v1.2.1
+        uses: actions/add-to-project@main
         with:
-          gh_token: ${{ secrets.ROBOT_PAT }}
-          organization: gliff-ai
-          project_id: 13
-          resource_node_id: ${{ github.event.issue.node_id }}
-          operation_mode: custom_field
-          custom_field_values: '[{\"name\": \"Status\",\"type\": \"single_select\",\"value\": \"${{ env.todo }}\"}]'
+          project-url: https://github.com/orgs/gliff-ai/projects/13
+          github-token: ${{ secrets.ROBOT_PAT }}
+          labeled: env.todo
   pr_opened:
     name: pr_opened_or_reopened_or_reviewrequested
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request' && github.event.action == 'opened'
     steps:
       - name: mark PR as ${{ env.for_review }}
-        uses: leonsteinhaeuser/project-beta-automations@v1.2.1
+        uses: actions/add-to-project@main
         with:
-          gh_token: ${{ secrets.ROBOT_PAT }}
-          organization: gliff-ai
-          project_id: 13
-          resource_node_id: ${{ github.event.pull_request.node_id }}
-          operation_mode: custom_field
-          custom_field_values: '[{\"name\": \"Status\",\"type\": \"single_select\",\"value\": \"${{ env.for_review }}\"},{\"name\": \"Sprint\",\"type\": \"iteration\",\"value\": \"${{ env.current_sprint }}\"}]'
+          project-url: https://github.com/orgs/gliff-ai/projects/13
+          github-token: ${{ secrets.ROBOT_PAT }}
+          labeled: env.for_review, env.current_sprint
+          label-operator: OR
