@@ -42,7 +42,7 @@ jobs:
           node-version: 16
       - name: update node dependencies
         run: |
-          npm update --dev
+          npm update --dev --save
       - name: commit updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
