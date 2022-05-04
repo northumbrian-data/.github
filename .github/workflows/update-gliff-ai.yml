@@ -1,0 +1,86 @@
+name: scheduled daily update of gliff-ai packages
+on:
+  workflow_call:
+    inputs:
+      main_branch:
+        required: false
+        type: string
+        default: "main"
+    secrets:
+      ROBOT_PAT:
+        required: true
+
+jobs:
+  npm_update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ROBOT_PAT }}
+          ref: ${{ github.head_ref }}
+      - name: create env variable for branch name
+        run: |
+          echo "BRANCH_NAME=$(date +'%Y-%m-%d')-gliff-ai-dependencies" >> $GITHUB_ENV
+      - name: create/update the branch
+        uses: peterjgrainger/action-create-branch@v2.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.ROBOT_PAT }}
+        with:
+          branch: ${{ env.BRANCH_NAME }}
+      - name: fetch just in case?
+        run: |
+          git fetch --all
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
+      - name: get outdated gliff-ai dependencies
+        run: |
+          echo "PR_BODY=$(npm outdated --dev --save @gliff-ai/{annotate,audit,curate,eslint-config,gliff-py,gliff-ts,jest-browserstack-automate,manage,slic,slpf,style,upload})" >> $GITHUB_ENV
+      - name: update node dependencies
+        run: |
+          npm update --dev --save @gliff-ai/{annotate,audit,curate,eslint-config,gliff-py,gliff-ts,jest-browserstack-automate,manage,slic,slpf,style,upload}
+      - name: commit updates
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          skip_fetch: true
+          commit_options: "-am --allow-empty"
+          commit_message: "build(deps): update gliff-ai dependencies"
+          commit_user_name: gliff-ai-robot
+          commit_user_email: chas+noteG@gliff.ai
+          branch: ${{ env.BRANCH_NAME }}
+      - name: lint and format
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        run: |
+          npm i -g eslint prettier
+          npm run lint
+          npm run format
+      - name: commit updates
+        if: steps.auto-commit-action.outputs.changes_detected == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          skip_fetch: true
+          commit_options: "-am --allow-empty"
+          commit_message: "chore: lint and format"
+          commit_user_name: gliff-ai-robot
+          commit_user_email: chas+noteG@gliff.ai
+          branch: ${{ env.BRANCH_NAME }}
+      - name: open pull request
+        id: pull
+        uses: gliff-ai/sync-branches@main
+        with:
+          GITHUB_TOKEN: ${{ secrets.ROBOT_PAT }}
+          FROM_BRANCH: "${{ env.BRANCH_NAME }}"
+          TO_BRANCH: "${{ inputs.main_branch }}"
+          PULL_REQUEST_TITLE: "build(deps): update gliff-ai dependencies"
+          PULL_REQUEST_BODY: "${{ env.PR_BODY }}"
+          CONTENT_COMPARISON: true
+          TEAM_REVIEWERS: '["techteam"]'
+      - name: delete branch if failed
+        if: ${{ failure() }}
+        uses: dawidd6/action-delete-branch@v3
+        with:
+          github_token: ${{ secrets.ROBOT_PAT }}
+          branches: ${{ env.BRANCH_NAME }}
