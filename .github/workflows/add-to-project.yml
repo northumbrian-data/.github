@@ -6,7 +6,7 @@ on:
         required: true
 
 env:
-  current_sprint: Odin 🧙‍♂️
+  current_sprint: Ragnarok 🔥
   todo: Todo 🏗
   done: Done 🚀
   in_progress: In Progress 🚧
