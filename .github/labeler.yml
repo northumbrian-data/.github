@@ -1,7 +1,7 @@
 version: v1
 
 labels:
-  - label: "enhancement"
+  - label: "feature"
     sync: true
     matcher:
       title: "^feat: .*"
@@ -14,7 +14,7 @@ labels:
   - label: "dependencies"
     sync: true
     matcher:
-      title: "^build.*"
+      title: "^build: .*"
 
   - label: "test"
     sync: true
