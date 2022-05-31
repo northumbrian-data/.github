@@ -14,7 +14,7 @@ labels:
   - label: "dependencies"
     sync: true
     matcher:
-      title: "^build: .*"
+      title: "^build.*"
 
   - label: "test"
     sync: true
