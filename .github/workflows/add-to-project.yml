@@ -6,7 +6,7 @@ on:
         required: true
 
 env:
-  current_sprint: Ragnarok 🔥
+  current_sprint: Skoll 🐺 
   todo: Todo 🏗
   done: Done 🚀
   in_progress: In Progress 🚧
