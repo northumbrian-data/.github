@@ -1,4 +1,4 @@
-name: Deploy plugin to function app
+name: Deploy plugin to Azure function app
 
 on:
   workflow_call:
@@ -13,9 +13,6 @@ on:
         required: true
       GIT_URL_PLUGIN_DETAILS:
         required: true
-
-env:
-  AZURE_FUNCTIONAPP_PACKAGE_PATH: "." # path you web app (defaults to the repository root)
 
 jobs:
   build-and-deploy:
@@ -43,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
           GIT_URL_PLUGIN_DETAILS: ${{ secrets.GIT_URL_PLUGIN_DETAILS }}
         run: |
-          pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
+          pushd './${{ secrets.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
           git lfs install --skip-repo
           python -m pip install --upgrade pip
           pip install -r requirements.txt --target=".python_packages/lib/site-packages"
@@ -55,7 +52,7 @@ jobs:
         id: fa
         with:
           app-name: ${{ secrets.AZURE_FUNCTIONAPP_NAME }}
-          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          package: ${{ secrets.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
           scm-do-build-during-deployment: false
           enable-oryx-build: false
