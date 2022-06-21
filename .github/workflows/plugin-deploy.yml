@@ -13,6 +13,8 @@ on:
         required: true
       GIT_URL_PLUGIN_DETAILS:
         required: true
+      AZURE_FUNCTIONAPP_PACKAGE_PATH:
+        required: true
 
 jobs:
   build-and-deploy:
