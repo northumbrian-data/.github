@@ -21,22 +21,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # checkout the repo
-      - name: "Checkout GitHub Action"
+      - name: checkout repo
         uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: "Login via Azure CLI"
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      # setup python environment
-      - name: Setup Python ${{ secrets.PYTHON_VERSION }} Environment
+      - name: setup Python ${{ secrets.PYTHON_VERSION }} environment
         uses: actions/setup-python@v1
         with:
           python-version: ${{ secrets.PYTHON_VERSION }}
 
-      # install dependencies
-      - name: "Resolve Project Dependencies Using Pip"
+      - name: resolve project dependencies
         shell: bash
         env:
           GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
@@ -48,8 +47,7 @@ jobs:
           pip install -r requirements.txt --target=".python_packages/lib/site-packages"
           popd
 
-      # deploy azure functions
-      - name: "Run Azure Functions Action"
+      - name: deploy to Azure function app
         uses: Azure/functions-action@v1
         id: fa
         with:
