@@ -7,6 +7,8 @@ on:
         required: true
       AZURE_CREDENTIALS:
         required: true
+      AZURE_FUNCTIONAPP_NAME:
+        required: true
       AZURE_FUNCTIONAPP_PUBLISH_PROFILE:
         required: true
       GIT_TOKEN:
