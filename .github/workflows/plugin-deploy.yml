@@ -1,0 +1,61 @@
+name: Deploy plugin to function app
+
+on:
+  workflow_call:
+    secrets:
+      PYTHON_VERSION:
+        required: true
+      AZURE_CREDENTIALS:
+        required: true
+      AZURE_FUNCTIONAPP_PUBLISH_PROFILE:
+        required: true
+      GIT_TOKEN:
+        required: true
+      GIT_URL_PLUGIN_DETAILS:
+        required: true
+
+env:
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: "." # path you web app (defaults to the repository root)
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # checkout the repo
+      - name: "Checkout GitHub Action"
+        uses: actions/checkout@v2
+      - name: "Login via Azure CLI"
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      # setup python environment
+      - name: Setup Python ${{ secrets.PYTHON_VERSION }} Environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ secrets.PYTHON_VERSION }}
+
+      # install dependencies
+      - name: "Resolve Project Dependencies Using Pip"
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+          GIT_URL_PLUGIN_DETAILS: ${{ secrets.GIT_URL_PLUGIN_DETAILS }}
+        run: |
+          pushd './${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}'
+          git lfs install --skip-repo
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt --target=".python_packages/lib/site-packages"
+          popd
+
+      # deploy azure functions
+      - name: "Run Azure Functions Action"
+        uses: Azure/functions-action@v1
+        id: fa
+        with:
+          app-name: ${{ secrets.AZURE_FUNCTIONAPP_NAME }}
+          package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+          publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
+          scm-do-build-during-deployment: false
+          enable-oryx-build: false
