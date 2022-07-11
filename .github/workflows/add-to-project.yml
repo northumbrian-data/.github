@@ -6,7 +6,7 @@ on:
         required: true
 
 env:
-  current_sprint: Skoll 🐺 
+  current_sprint: Thor 🔨
   todo: Todo 🏗
   done: Done 🚀
   in_progress: In Progress 🚧
