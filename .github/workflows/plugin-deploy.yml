@@ -5,12 +5,16 @@ on:
     inputs:
       git_url_plugin_details:
         required: true
+        type: "string"
       python_version:
         required: true
+        type: "string"
       azure_functionapp_name:
         required: true
+        type: "string"
       azure_functionapp_package_path:
         required: true
+        type: "string"
     secrets:
       AZURE_CREDENTIALS:
         required: true
